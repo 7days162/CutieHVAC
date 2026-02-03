@@ -4,9 +4,156 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b238cb90-0829-4a1a-848c-116e3437191e" name="변경" comment="..">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/preprocess.py" afterDir="false" />
+    <list default="true" id="b238cb90-0829-4a1a-848c-116e3437191e" name="변경" comment="전처리 코드 및 전처리된 사진(일부)">
+      <change afterPath="$PROJECT_DIR$/data/processed/img_00897e577450.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_016db424ed41.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_047d069ca3b3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_05accf35fa07.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_0642cf557a8d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_0987097a9daa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_098c88bbcdeb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_0ca57df4ba60.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_0ceba31fb29b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_0d2b321f1fa5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_154bd0a1cb42.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_16cfbe797d5a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_186a07e411f8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_1a11dcc1e186.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_1fb3a3acf326.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_20c5d5179574.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_2136c3d6bb40.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_21ed11f1258a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_225197db13b5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_2291c6c06097.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_22ed128256fd.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_2431cf8c7cf2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_277ec28dc449.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_27b44e3861d9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_29921d9f4b3d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_2a278619f5bd.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_2aaa259e6f1e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_2aec13588fdf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_2b437af86c35.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_2b744c8bb81b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_2c4cea07b9fe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_2c5f5f0dcab0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_2e9a6ba835cb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_2f10078beca6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_2fb1ce478f08.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_312af178c71d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_324d307c307b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_3523596d3db6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_36da2d9f9541.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_3b201f3e3783.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_3e91bdf4aaad.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_41eb828476eb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_451e7989843c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_45ee586045d9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_492a24cded20.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_4b276f00c9f9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_4c467efaf267.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_4d3440f27b03.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_4ef8f1c280dc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_5035ae232863.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_52324f673e9b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_55595e139349.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_5c062f5967b5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_5e4d9ad2447d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_5edfc15a8a68.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_60f867974969.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_61e63605b9fd.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_6212907cd8b8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_6474358e8c2a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_6695645dfc80.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_67373a00a83c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_689551457a6b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_6b57d1008108.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_6bceb1bb4620.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_6cc547843a80.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_6fc70429ceb7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_720a8d81a0b4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_727f8b2ca5d8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_72ba9ca19860.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_732772093ec1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_7693228b95ef.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_7d859b30fb0e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_7e7d5fa00ee3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_82c22114e302.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_860b77677cb0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_891793ab0e2b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_89a9bc755bd2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_8a42d2f4b50b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_8cdd707ec2fb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_8dfb8ca5f152.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_8e3b465bd17e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_934d6148a21a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_941301617f27.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_946b13f880bf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_9513d9719900.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_9697a6367318.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_96c7d9dbb528.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_9ac904bd46a4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_9bcbd19bc38c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_9dd72e2514d9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_9e128c20051c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_9f44ce1bf7ca.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_a27c7cfdf699.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_a5a38f2b6cc1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_a5fdf5f38617.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_a765c6352b8d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_ac4b8c3410be.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_ac4e80b7ec30.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_ad14b8025157.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_ad8b0f11a968.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_aeea9ff9676d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_af9ead232ac4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_b0578b4a46c5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_b1b5b9ef14bd.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_b266d97c7bf7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_b780cc82296b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_b83db821592f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_ba013c0988a6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_baa3b92a492c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_bb2d29fbc768.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_bf3d6b6e4ef6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_c08b59a15599.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_c191d13c1874.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_c22ca5f8242f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_c3778cb89a03.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_c47e696ab8e3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_c6b8fe823f16.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_c74ee09151ff.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_cb99b99ca3f8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_cc4f8f235548.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_ccfc54497cec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_ce8bc88251c0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_d119f62eb97a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_d1ceab119e11.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_d58e4f38892c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_dd9925b92deb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_ddbf671b6d73.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_ddd62fba05f3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_de61b7f46627.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_de7d42863bd9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_dfc46500022a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_e21e1d57e3a0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_e33095c34b79.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_e3a8dac76240.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_e8af72175f8b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_ef2aeada4049.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_f0d5c111b7d6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_f1979e895191.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_f837cf3bd179.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_f83e0c190c03.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_f87d03eea779.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_f92228385200.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_fa2d6709e71d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_fa8dc4206da0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_fb7e058553b9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_fdb6c2c9c944.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_fe97df513d53.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_ff0797e7bfd6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/img_ff6e329efadc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,21 +171,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "7days162"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;7days162&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/7days162/CutieHVAC.git",
-    "accountId": "1f1d57c9-b04a-4b9d-83c1-20b9287f1853"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/7days162/CutieHVAC.git&quot;,
+    &quot;accountId&quot;: &quot;1f1d57c9-b04a-4b9d-83c1-20b9287f1853&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="398xIERUpGA5jrgWbIBmd8KBfmL" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,20 +194,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.preprocess.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/7days/Documents/CutieHVAC/data/raw",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Confirmation"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.preprocess.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/7days/Documents/CutieHVAC/data/raw&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Confirmation&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\7days\Documents\CutieHVAC\data\raw" />
@@ -90,12 +237,21 @@
       <option name="project" value="LOCAL" />
       <updated>1770092389369</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="전처리 코드 및 전처리된 사진(일부)">
+      <option name="closed" value="true" />
+      <created>1770094679408</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770094679408</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value=".." />
-    <option name="LAST_COMMIT_MESSAGE" value=".." />
+    <MESSAGE value="전처리 코드 및 전처리된 사진(일부)" />
+    <option name="LAST_COMMIT_MESSAGE" value="전처리 코드 및 전처리된 사진(일부)" />
   </component>
 </project>
