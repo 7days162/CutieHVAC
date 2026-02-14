@@ -4,14 +4,313 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b238cb90-0829-4a1a-848c-116e3437191e" name="변경" comment="전처리 코드 및 전처리된 사진(일부)">
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cutiehvac/vision/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cutiehvac/vision/camera_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cutiehvac/vision/camera_stream.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cutiehvac/vision/viewer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cutiehvac/vision_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CutieHVAC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CutieHVAC.iml" afterDir="false" />
+    <list default="true" id="b238cb90-0829-4a1a-848c-116e3437191e" name="변경" comment="vision 모듈 수정">
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/data.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_00897e577450.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_047d069ca3b3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_05accf35fa07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_0642cf557a8d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_0987097a9daa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_098c88bbcdeb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_0ca57df4ba60.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_0ceba31fb29b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_0d2b321f1fa5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_154bd0a1cb42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_16cfbe797d5a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_186a07e411f8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_1a11dcc1e186.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_1fb3a3acf326.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_20c5d5179574.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_2136c3d6bb40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_21ed11f1258a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_2291c6c06097.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_22ed128256fd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_2431cf8c7cf2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_277ec28dc449.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_27b44e3861d9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_29921d9f4b3d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_2a278619f5bd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_2aaa259e6f1e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_2aec13588fdf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_2b437af86c35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_2b744c8bb81b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_2c5f5f0dcab0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_2f10078beca6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_2fb1ce478f08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_312af178c71d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_324d307c307b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_3523596d3db6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_3b201f3e3783.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_41eb828476eb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_45ee586045d9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_492a24cded20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_4b276f00c9f9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_4c467efaf267.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_4d3440f27b03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_4ef8f1c280dc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_5035ae232863.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_52324f673e9b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_55595e139349.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_5c062f5967b5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_5e4d9ad2447d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_5edfc15a8a68.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_60f867974969.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_61e63605b9fd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_6212907cd8b8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_6474358e8c2a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_6695645dfc80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_689551457a6b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_6b57d1008108.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_6bceb1bb4620.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_6fc70429ceb7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_720a8d81a0b4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_72ba9ca19860.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_732772093ec1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_7693228b95ef.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_7d859b30fb0e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_7e7d5fa00ee3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_82c22114e302.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_891793ab0e2b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_8a42d2f4b50b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_8dfb8ca5f152.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_8e3b465bd17e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_934d6148a21a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_946b13f880bf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_9513d9719900.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_96c7d9dbb528.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_9dd72e2514d9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_9f44ce1bf7ca.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_a27c7cfdf699.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_a5a38f2b6cc1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_a5fdf5f38617.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_a765c6352b8d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_ac4b8c3410be.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_ac4e80b7ec30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_ad14b8025157.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_ad8b0f11a968.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_aeea9ff9676d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_af9ead232ac4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_b1b5b9ef14bd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_b266d97c7bf7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_b83db821592f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_ba013c0988a6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_baa3b92a492c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_bb2d29fbc768.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_bf3d6b6e4ef6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_c08b59a15599.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_c191d13c1874.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_c22ca5f8242f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_c3778cb89a03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_c47e696ab8e3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_c74ee09151ff.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_cb99b99ca3f8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_cc4f8f235548.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_ccfc54497cec.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_ce8bc88251c0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_d119f62eb97a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_d1ceab119e11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_ddbf671b6d73.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_de61b7f46627.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_de7d42863bd9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_e21e1d57e3a0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_e8af72175f8b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_ef2aeada4049.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_f0d5c111b7d6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_f1979e895191.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_f837cf3bd179.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_f83e0c190c03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_f92228385200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_fa2d6709e71d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_fa8dc4206da0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_fdb6c2c9c944.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_fe97df513d53.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_ff0797e7bfd6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/train/img_ff6e329efadc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/val/img_016db424ed41.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/val/img_225197db13b5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/val/img_2c4cea07b9fe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/val/img_2e9a6ba835cb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/val/img_36da2d9f9541.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/val/img_3e91bdf4aaad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/val/img_451e7989843c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/val/img_67373a00a83c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/val/img_6cc547843a80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/val/img_727f8b2ca5d8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/val/img_860b77677cb0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/val/img_89a9bc755bd2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/val/img_8cdd707ec2fb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/val/img_941301617f27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/val/img_9697a6367318.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/val/img_9ac904bd46a4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/val/img_9bcbd19bc38c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/val/img_9e128c20051c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/val/img_b0578b4a46c5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/val/img_b780cc82296b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/val/img_c6b8fe823f16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/val/img_d58e4f38892c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/val/img_dd9925b92deb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/val/img_ddd62fba05f3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/val/img_dfc46500022a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/val/img_e33095c34b79.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/val/img_e3a8dac76240.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/val/img_f87d03eea779.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/images/val/img_fb7e058553b9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_00897e577450.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_047d069ca3b3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_05accf35fa07.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_0642cf557a8d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_0987097a9daa.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_098c88bbcdeb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_0ca57df4ba60.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_0ceba31fb29b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_0d2b321f1fa5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_154bd0a1cb42.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_16cfbe797d5a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_186a07e411f8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_1a11dcc1e186.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_1fb3a3acf326.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_20c5d5179574.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_2136c3d6bb40.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_21ed11f1258a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_2291c6c06097.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_22ed128256fd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_2431cf8c7cf2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_277ec28dc449.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_27b44e3861d9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_29921d9f4b3d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_2a278619f5bd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_2aaa259e6f1e.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_2aec13588fdf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_2b437af86c35.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_2b744c8bb81b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_2c5f5f0dcab0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_2f10078beca6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_2fb1ce478f08.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_312af178c71d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_324d307c307b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_3523596d3db6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_3b201f3e3783.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_41eb828476eb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_45ee586045d9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_492a24cded20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_4b276f00c9f9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_4c467efaf267.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_4d3440f27b03.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_4ef8f1c280dc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_5035ae232863.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_52324f673e9b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_55595e139349.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_5c062f5967b5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_5e4d9ad2447d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_5edfc15a8a68.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_60f867974969.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_61e63605b9fd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_6212907cd8b8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_6474358e8c2a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_6695645dfc80.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_689551457a6b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_6b57d1008108.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_6bceb1bb4620.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_6fc70429ceb7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_720a8d81a0b4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_72ba9ca19860.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_732772093ec1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_7693228b95ef.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_7d859b30fb0e.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_7e7d5fa00ee3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_82c22114e302.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_891793ab0e2b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_8a42d2f4b50b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_8dfb8ca5f152.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_8e3b465bd17e.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_934d6148a21a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_946b13f880bf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_9513d9719900.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_96c7d9dbb528.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_9dd72e2514d9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_9f44ce1bf7ca.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_a27c7cfdf699.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_a5a38f2b6cc1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_a5fdf5f38617.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_a765c6352b8d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_ac4b8c3410be.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_ac4e80b7ec30.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_ad14b8025157.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_ad8b0f11a968.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_aeea9ff9676d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_af9ead232ac4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_b1b5b9ef14bd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_b266d97c7bf7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_b83db821592f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_ba013c0988a6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_baa3b92a492c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_bb2d29fbc768.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_bf3d6b6e4ef6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_c08b59a15599.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_c191d13c1874.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_c22ca5f8242f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_c3778cb89a03.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_c47e696ab8e3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_c74ee09151ff.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_cb99b99ca3f8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_cc4f8f235548.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_ccfc54497cec.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_ce8bc88251c0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_d119f62eb97a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_d1ceab119e11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_ddbf671b6d73.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_de61b7f46627.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_de7d42863bd9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_e21e1d57e3a0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_e8af72175f8b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_ef2aeada4049.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_f0d5c111b7d6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_f1979e895191.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_f837cf3bd179.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_f83e0c190c03.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_f92228385200.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_fa2d6709e71d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_fa8dc4206da0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_fdb6c2c9c944.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_fe97df513d53.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_ff0797e7bfd6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/train/img_ff6e329efadc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/val.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/val/img_016db424ed41.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/val/img_225197db13b5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/val/img_2c4cea07b9fe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/val/img_2e9a6ba835cb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/val/img_36da2d9f9541.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/val/img_3e91bdf4aaad.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/val/img_451e7989843c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/val/img_67373a00a83c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/val/img_6cc547843a80.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/val/img_727f8b2ca5d8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/val/img_860b77677cb0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/val/img_89a9bc755bd2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/val/img_8cdd707ec2fb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/val/img_941301617f27.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/val/img_9697a6367318.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/val/img_9ac904bd46a4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/val/img_9bcbd19bc38c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/val/img_9e128c20051c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/val/img_b0578b4a46c5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/val/img_b780cc82296b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/val/img_c6b8fe823f16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/val/img_d58e4f38892c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/val/img_dd9925b92deb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/val/img_ddd62fba05f3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/val/img_dfc46500022a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/val/img_e33095c34b79.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/val/img_e3a8dac76240.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/val/img_f87d03eea779.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/labels/val/img_fb7e058553b9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/meta/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/datasets/yolo_doll_v1/meta/split.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/build_yolo_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/train_yolo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/yolo11n.pt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,10 +355,12 @@
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.build_yolo_dataset.executor": "Run",
     "Python.camera_config.executor": "Run",
     "Python.main.executor": "Run",
     "Python.preprocess.executor": "Run",
     "Python.test.executor": "Run",
+    "Python.train_yolo.executor": "Run",
     "Python.vision_test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -76,8 +377,9 @@
       <recent name="C:\Users\7days\Documents\CutieHVAC" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/cutiehvac" />
+      <recent name="$PROJECT_DIR$/scripts" />
       <recent name="$PROJECT_DIR$/src/cutiehvac/vision" />
+      <recent name="$PROJECT_DIR$/src/cutiehvac" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -112,13 +414,31 @@
       <option name="project" value="LOCAL" />
       <updated>1770094679408</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="vision 모듈 프로토타입">
+      <option name="closed" value="true" />
+      <created>1771003443527</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1771003443527</updated>
+    </task>
+    <task id="LOCAL-00004" summary="vision 모듈 수정">
+      <option name="closed" value="true" />
+      <created>1771003538140</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1771003538140</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value=".." />
     <MESSAGE value="전처리 코드 및 전처리된 사진(일부)" />
-    <option name="LAST_COMMIT_MESSAGE" value="전처리 코드 및 전처리된 사진(일부)" />
+    <MESSAGE value="vision 모듈 프로토타입" />
+    <MESSAGE value="vision 모듈 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="vision 모듈 수정" />
   </component>
 </project>

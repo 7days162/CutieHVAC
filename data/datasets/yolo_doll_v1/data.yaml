@@ -1,0 +1,4 @@
+path: /Users/7days162/Documents/Project/PythonProject/CutieHVAC/data/datasets/yolo_doll_v1
+train: images/train
+val: images/val
+names: ['doll']
