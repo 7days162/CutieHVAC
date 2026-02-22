@@ -41,8 +41,8 @@ def run_training():
     parser = argparse.ArgumentParser(description="CutieHVAC YOLO 학습 스크립트")
 
     parser.add_argument("--version", type=int, default=None, help="데이터셋 버전 지정")
-    parser.add_argument("--epochs", type=int, default=50)
-    parser.add_argument("--batch", type=int, default=8)
+    parser.add_argument("--epochs", type=int, default=80)
+    parser.add_argument("--batch", type=int, default=16)
     parser.add_argument("--imgsz", type=int, default=640)
     parser.add_argument("--model", type=str, default="yolo11n.pt")
 
@@ -76,15 +76,18 @@ def run_training():
     # 결과는 data/models 아래 데이터셋 이름으로 저장
     save_dir = PROJECT_ROOT / "data" / "models"
 
+    # model.train 부분만 이렇게 수정해 보세요.
     model.train(
         data=str(data_yaml),
         epochs=args.epochs,
-        batch=args.batch,
+        batch=16,
         imgsz=args.imgsz,
         device=device,
+        workers=6,
         project=str(save_dir),
         name=dataset_path.name,
-        exist_ok=True
+        exist_ok=True,
+        patience=0,
     )
 
     print(f"\n학습이 완료되었습니다! 결과 저장소: {save_dir / dataset_path.name}")
