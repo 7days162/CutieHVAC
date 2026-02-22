@@ -4,30 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b238cb90-0829-4a1a-848c-116e3437191e" name="변경" comment="학습 데이터 추가 및 vision 관련 minor fix">
-      <change afterPath="$PROJECT_DIR$/data/models/yolo_doll_v1/BoxF1_curve.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/models/yolo_doll_v1/BoxPR_curve.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/models/yolo_doll_v1/BoxP_curve.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/models/yolo_doll_v1/BoxR_curve.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/models/yolo_doll_v1/args.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/models/yolo_doll_v1/confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/models/yolo_doll_v1/confusion_matrix_normalized.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/models/yolo_doll_v1/labels.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/models/yolo_doll_v1/results.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/models/yolo_doll_v1/results.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/models/yolo_doll_v1/train_batch0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/models/yolo_doll_v1/train_batch1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/models/yolo_doll_v1/train_batch2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/models/yolo_doll_v1/train_batch600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/models/yolo_doll_v1/train_batch601.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/models/yolo_doll_v1/train_batch602.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/models/yolo_doll_v1/val_batch0_labels.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/models/yolo_doll_v1/val_batch0_pred.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/models/yolo_doll_v1/val_batch1_labels.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/models/yolo_doll_v1/val_batch1_pred.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/models/yolo_doll_v1/weights/best.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/models/yolo_doll_v1/weights/last.pt" afterDir="false" />
+    <list default="true" id="b238cb90-0829-4a1a-848c-116e3437191e" name="변경" comment="학습 데이터 추가">
+      <change afterPath="$PROJECT_DIR$/scripts/fan_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cutiehvac/control/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cutiehvac/control/fan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cutiehvac/control/hvac_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cutiehvac/vision/detector_yolo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build_yolo_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build_yolo_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/train_yolo.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/train_yolo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/vision_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/vision_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cutiehvac/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cutiehvac/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cutiehvac/vision/camera_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cutiehvac/vision/camera_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cutiehvac/vision/camera_stream.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cutiehvac/vision/camera_stream.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cutiehvac/vision/viewer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cutiehvac/vision/viewer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771046152237</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="학습 데이터 추가">
+      <option name="closed" value="true" />
+      <created>1771056598034</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1771056598034</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -164,6 +163,7 @@
     <MESSAGE value="vision 모듈 프로토타입" />
     <MESSAGE value="vision 모듈 수정" />
     <MESSAGE value="학습 데이터 추가 및 vision 관련 minor fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="학습 데이터 추가 및 vision 관련 minor fix" />
+    <MESSAGE value="학습 데이터 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="학습 데이터 추가" />
   </component>
 </project>
